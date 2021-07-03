@@ -6,7 +6,7 @@ Your players have to do this by navigating through a virtual 3d world via an API
 They get dropped randomly and only know the height of their current position.
 
 Players can interact with the api by making a random move (and cancelling without penalty), or moving in any direction(north/east/south/west), 
-or move to a specific coordinate using moveto(x,y)
+or move to a specific coordinate using moveto(x,y). They do this by doing a simple get request containing their player name. They will get their score (height) returned to use for their game strategy.
 
 **Main components of this repo, for now just run the file:**
 - hosting.py: You will use this to host the game. Also contains the game logic.
